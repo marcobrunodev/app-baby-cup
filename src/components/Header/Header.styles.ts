@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import container from '../../GlobalStyles/tools/container'
+import pointer from '../../assets/pointer.png'
 
 const Action = styled.a`
   color: white;
@@ -7,7 +8,7 @@ const Action = styled.a`
   font-size: 2rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
   text-transform: uppercase;
-  
+  cursor: url(${pointer}), pointer;
 `
 
 const Menu = styled.nav`
