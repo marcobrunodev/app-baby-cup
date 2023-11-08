@@ -34,6 +34,24 @@ const Button = styled.button`
   border: none;
   padding: 0;
   cursor: url(${pointer}), pointer;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+  border-radius: 4rem;
+  transition: transform 200ms ease-in-out,
+              filter 200ms ease-in-out,
+              box-shadow 200ms ease-in-out;
+  
+
+  &:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+  }
+
+  &:active {
+    transform: scale(0.98);
+    filter: brightness(1);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  }
 `
 
 const S = {

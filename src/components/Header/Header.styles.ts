@@ -9,6 +9,18 @@ const Action = styled.a`
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.60);
   text-transform: uppercase;
   cursor: url(${pointer}), pointer;
+  transition: 100ms transform ease-in-out,
+              100ms text-shadow ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    text-shadow: 0 4px 5px rgba(0, 0, 0, 0.60);
+  }
+
+  &:active {
+    transform: scale(0.98);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.60);
+  }
 `
 
 const Menu = styled.nav`
