@@ -14,7 +14,8 @@ i18next
           links: 'NFT,Whitepaper,Team,Contact',
           playGame: 'Play Game',
           bannerTitle: 'Buy $BCUP',
-          whitepaper: 'Whitepaper'
+          whitepaper: 'Whitepaper',
+          addressCoin: '0x6c653948e86609ea9da23a3d1bab89f46e85326d'
         }
       }
     }

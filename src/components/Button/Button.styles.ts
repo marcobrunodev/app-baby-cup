@@ -19,7 +19,7 @@ const Center = styled.p`
 `
 
 const Right = styled.img.attrs({ src: right })`
-  margin-left: -0.2rem;
+  margin-left: -0.4rem;
 `
 
 const Left = styled.img.attrs({ src: left })`
