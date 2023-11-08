@@ -1,7 +1,11 @@
+import Sizes from "./Sizes"
 import Colors from "./Colors"
 
 const Settings = () => (
-  <Colors />
+  <>
+    <Sizes />
+    <Colors />
+  </>
 )
 
 export default Settings

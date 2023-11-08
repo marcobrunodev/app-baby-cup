@@ -46,6 +46,12 @@ const Header = styled.header`
   width: 100vw;
   box-shadow: 0px 5px 5px 0px rgba(146, 174, 54, 0.70);
   position: fixed;
+  background-color: var(--color-first);
+  height: var(--height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 `
 
 const S = {

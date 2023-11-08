@@ -12,7 +12,9 @@ i18next
       en: {
         translation: {
           links: 'NFT,Whitepaper,Team,Contact',
-          playGame: 'Play Game'
+          playGame: 'Play Game',
+          bannerTitle: 'Buy $BCUP',
+          whitepaper: 'Whitepaper'
         }
       }
     }

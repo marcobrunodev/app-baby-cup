@@ -1,7 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 import cloudyOtf from '../../../assets/fonts/cloudy.otf'
 import cloudyWoff from '../../../assets/fonts/cloudy.woff'
+import marioOtf from '../../../assets/fonts/mario.otf'
+import marioWoff from '../../../assets/fonts/mario.woff'
 import auto from '../../../assets/auto.png'
+import logoBg from '../../../assets/logo-bg.png'
 
 const Basic = createGlobalStyle`
   @font-face {
@@ -9,6 +12,13 @@ const Basic = createGlobalStyle`
     src:
       url(${cloudyOtf}) format('opentype'),
       url(${cloudyWoff}) format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'mario';
+    src:
+      url(${marioOtf}) format('opentype'),
+      url(${marioWoff}) format('woff'); 
   }
 
   :root {
@@ -22,7 +32,10 @@ const Basic = createGlobalStyle`
 
   body {
     font-family: 'cloudy', sans-serif;
+    background-image: url(${logoBg});
+    background-repeat: repeat;
     background-color: var(--color-first);
+    background-attachment: fixed;
     min-width: 480px;
   }
 
