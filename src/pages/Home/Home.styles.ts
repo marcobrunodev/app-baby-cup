@@ -3,6 +3,7 @@ import HomeTypes from './Home.types'
 import container from '../../GlobalStyles/tools/container'
 
 const InfosCoin = styled.div`
+  ${container};
   display: flex;
   justify-content: space-around;
   align-items: flex-start;

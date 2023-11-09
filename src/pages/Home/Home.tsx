@@ -4,6 +4,7 @@ import S from './Home.styles'
 import Track from '../../components/Track'
 import Suplly from '../../components/Info'
 import InfoButton from '../../components/InfoButton'
+import WhatIs from '../../components/WhatIs'
 
 const Home = () => (
   <>
@@ -17,6 +18,8 @@ const Home = () => (
       <Suplly />
       <InfoButton />
     </S.InfosCoin>
+
+    <WhatIs title="What is BLC?" />
   </>
 )
 

@@ -21,6 +21,11 @@ const Basic = createGlobalStyle`
       url(${marioWoff}) format('woff'); 
   }
 
+  *::selection {
+    color: white;
+    background-color: var(--color-thrid);
+  }
+
   :root {
     font-size: 10px;
   }
