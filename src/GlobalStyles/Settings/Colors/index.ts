@@ -5,6 +5,7 @@ const Colors = createGlobalStyle`
   --color-first: #B3DB28;
   --color-second: #8EAB28;
   --color-thrid: #FBCE67;
+  --color-fifth: #A96009;
   --color-black: #434343;
 }
 `

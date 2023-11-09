@@ -13,7 +13,7 @@ const TokenAllocation = styled.section`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 10rem;
+  padding: 6rem 10rem 4rem;
 
   & > ${Title} {
     margin-bottom: 3rem;

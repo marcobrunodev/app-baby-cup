@@ -6,6 +6,7 @@ import Suplly from '../../components/Info'
 import InfoButton from '../../components/InfoButton'
 import WhatIs from '../../components/WhatIs'
 import Nfts from '../../components/Nfts'
+import CoreTeam from '../../components/CoreTeam'
 import TokenAllocation from '../../components/TokenAllocation'
 
 const Home = () => (
@@ -24,6 +25,7 @@ const Home = () => (
     <WhatIs />
     <Nfts />
     <TokenAllocation />
+    <CoreTeam />
   </>
 )
 
