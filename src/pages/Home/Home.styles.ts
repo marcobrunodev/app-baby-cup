@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import HomeTypes from './Home.types'
 import container from '../../GlobalStyles/tools/container'
 
 const InfosCoin = styled.div`
@@ -9,7 +8,7 @@ const InfosCoin = styled.div`
   align-items: flex-start;
 `
 
-const Home = styled.div<HomeTypes>`
+const Home = styled.div`
   ${container};
   padding-top: var(--header);
   min-height: 100%;

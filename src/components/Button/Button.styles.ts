@@ -37,6 +37,7 @@ export const Button = styled.button`
   cursor: url(${pointer}), pointer;
   box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
   border-radius: 4rem;
+  text-decoration: none;
   text-transform: uppercase;
   transition: transform 200ms ease-in-out,
               filter 200ms ease-in-out,

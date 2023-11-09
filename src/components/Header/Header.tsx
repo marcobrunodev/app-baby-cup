@@ -1,8 +1,9 @@
-import { Link } from 'react-scroll'
+import { Link as LinkScroll } from 'react-scroll'
 import Logo from '../Logo'
 import Button from '../Button'
 import HeaderTypes from './Header.types'
 import S from './Header.styles'
+import { Link } from 'react-router-dom'
 
 const Header = ({ links, playGame }: HeaderTypes) => (
   <S.Header>
@@ -11,13 +12,13 @@ const Header = ({ links, playGame }: HeaderTypes) => (
 
       <S.Menu>
         {links.map(({ href, children }) => (
-          <Link to={href} smooth={true} offset={-70}>
+          <LinkScroll to={href} smooth={true} offset={-70}>
             <S.Action href={`#${href}`} > {children}</S.Action>
-          </Link>
+          </LinkScroll>
         ))}
       </S.Menu>
 
-      <Button>
+      <Button as={Link} to='/play'>
         {playGame}
       </Button>
     </S.Container>

@@ -24,7 +24,9 @@ i18next
           nftsTitle: 'NFT Card',
           tokenAllocationTitle: 'Token Allocation',
           coreTeamTitle: 'Core Team',
-          footer: '© 2023 Baby luffy cup. All right reserved.'
+          footer: '© 2023 Baby luffy cup. All right reserved.',
+          notFoundTitle: 'Not found',
+          home: 'Go home'
         }
       }
     }
