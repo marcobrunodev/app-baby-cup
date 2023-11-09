@@ -19,7 +19,7 @@ const Home = () => (
       <InfoButton />
     </S.InfosCoin>
 
-    <WhatIs title="What is BLC?" />
+    <WhatIs />
   </>
 )
 
