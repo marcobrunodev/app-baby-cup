@@ -1,6 +1,5 @@
 export type TokenAllocationTypes = {
-  title: string,
-  button: string
+  title: string
 }
 
 export default TokenAllocationTypes
