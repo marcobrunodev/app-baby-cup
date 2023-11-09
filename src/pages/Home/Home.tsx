@@ -8,6 +8,7 @@ import WhatIs from '../../components/WhatIs'
 import Nfts from '../../components/Nfts'
 import CoreTeam from '../../components/CoreTeam'
 import TokenAllocation from '../../components/TokenAllocation'
+import Footer from '../../components/Footer'
 
 const Home = () => (
   <>
@@ -26,6 +27,7 @@ const Home = () => (
     <Nfts />
     <TokenAllocation />
     <CoreTeam />
+    <Footer />
   </>
 )
 
