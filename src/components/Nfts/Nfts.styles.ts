@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import container from '../../GlobalStyles/tools/container'
-import { Button, Center } from '../Button/Button.styles'
+import { Center } from '../Button/Button.styles'
 
 const Nft = styled.img`
   max-width: 30rem;
