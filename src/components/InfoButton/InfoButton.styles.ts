@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import infoBg from '../../assets/info-bg.png'
 import { Button } from '../Button/Button.styles'
-import container from '../../GlobalStyles/tools/container'
 
 const Content = styled.div`
   position: absolute;
