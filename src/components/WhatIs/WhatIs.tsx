@@ -4,7 +4,7 @@ import Title from '../Title'
 import Text from '../Text'
 
 const WhatIs = ({ title, description }: WhatIsTypes) => (
-  <S.WhatIs>
+  <S.WhatIs id="whatisit">
     <S.Left />
     <S.Right>
       <Title>{title}</Title>

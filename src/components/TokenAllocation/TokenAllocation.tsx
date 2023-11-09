@@ -3,7 +3,7 @@ import S from './TokenAllocation.styles'
 import Title from '../Title'
 
 const TokenAllocation = ({ title }: TokenAllocationTypes) => (
-  <S.TokenAllocation>
+  <S.TokenAllocation id='token'>
     <Title>{title}</Title>
     <S.Graph />
   </S.TokenAllocation>

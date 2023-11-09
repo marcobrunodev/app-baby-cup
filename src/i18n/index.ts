@@ -11,7 +11,7 @@ i18next
     resources: {
       en: {
         translation: {
-          links: 'NFT,Whitepaper,Team,Contact',
+          links: 'What is it,NFT,Token,Team',
           playGame: 'Play Game',
           buyCoin: 'Buy $BCUP',
           buyNft: 'Buy NFT',

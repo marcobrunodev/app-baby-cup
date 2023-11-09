@@ -4,7 +4,7 @@ import S from './Nfts.styles'
 import Button from '../Button'
 
 const Nfts = ({ title, nfts, button }: NftsTypes) => (
-  <S.Nfts>
+  <S.Nfts id='nft'>
     <Title>{title}</Title>
 
     <S.WrapNft>
