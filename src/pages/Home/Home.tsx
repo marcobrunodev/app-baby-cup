@@ -3,6 +3,7 @@ import Banner from '../../components/Banner'
 import S from './Home.styles'
 import Track from '../../components/Track'
 import Suplly from '../../components/Info'
+import InfoButton from '../../components/InfoButton'
 
 const Home = () => (
   <>
@@ -11,7 +12,11 @@ const Home = () => (
       <Banner />
     </S.Home>
     <Track />
-    <Suplly />
+
+    <S.InfosCoin>
+      <Suplly />
+      <InfoButton />
+    </S.InfosCoin>
   </>
 )
 

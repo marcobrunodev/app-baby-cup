@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
-import Banner from './Banner'
+import InfoButton from './InfoButton'
 
 export default () => {
   const { t } = useTranslation()
 
-  return <Banner buyCoin={t('buyCoin')} whitepaper={t('whitepaper')} />
+  return <InfoButton contentButton={t('buyCoin')} />
 }

@@ -25,7 +25,7 @@ const Right = styled.img.attrs({ src: right })`
 const Left = styled.img.attrs({ src: left })`
 `
 
-const Button = styled.button`
+export const Button = styled.button`
   position: relative;
   display: flex;
   align-items: center;

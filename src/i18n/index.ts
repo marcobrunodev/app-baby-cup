@@ -13,7 +13,7 @@ i18next
         translation: {
           links: 'NFT,Whitepaper,Team,Contact',
           playGame: 'Play Game',
-          bannerTitle: 'Buy $BCUP',
+          buyCoin: 'Buy $BCUP',
           whitepaper: 'Whitepaper',
           addressCoin: '0x6c653948e86609ea9da23a3d1bab89f46e85326d',
           supplyTitle: 'Supply',
