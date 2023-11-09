@@ -1,12 +1,12 @@
 import styled from 'styled-components'
-import instagram from '../../assets/instagram.png'
+import twitter from '../../assets/twitter.png'
 import pointer from '../../assets/pointer.png'
 
-const Icon = styled.img.attrs({ src: instagram, alt: 'Instagram logo' })`
+const Icon = styled.img.attrs({ src: twitter, alt: 'Twitter logo' })`
   width: 100%;
 `
 
-export const Instagram = styled.a`
+export const Twitter = styled.a`
   cursor: url(${pointer}), pointer;
   border-radius: 50%;
   box-shadow: 0.4rem 0.4rem 0.4rem rgba(0,0,0,0.2);
@@ -21,7 +21,7 @@ export const Instagram = styled.a`
 `
 
 const S = {
-  Instagram,
+  Twitter,
   Icon
 }
 

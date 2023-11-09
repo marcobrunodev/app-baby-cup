@@ -9,9 +9,11 @@ import Nfts from '../../components/Nfts'
 import CoreTeam from '../../components/CoreTeam'
 import TokenAllocation from '../../components/TokenAllocation'
 import Footer from '../../components/Footer'
+import SocialFixed from '../../components/SocialFixed'
 
 const Home = () => (
   <>
+    <SocialFixed />
     <S.Home>
       <Header />
       <Banner />
