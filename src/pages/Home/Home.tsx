@@ -5,6 +5,7 @@ import Track from '../../components/Track'
 import Suplly from '../../components/Info'
 import InfoButton from '../../components/InfoButton'
 import WhatIs from '../../components/WhatIs'
+import Nfts from '../../components/Nfts'
 
 const Home = () => (
   <>
@@ -20,6 +21,7 @@ const Home = () => (
     </S.InfosCoin>
 
     <WhatIs />
+    <Nfts />
   </>
 )
 

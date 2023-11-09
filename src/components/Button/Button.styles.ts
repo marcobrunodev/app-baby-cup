@@ -4,10 +4,11 @@ import right from '../../assets/btn-right.png'
 import center from '../../assets/btn-bg.png'
 import pointer from '../../assets/pointer.png'
 
-const Center = styled.p`
+export const Center = styled.p`
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  justify-content: center;
   background: url(${center}) repeat-x;
   height: 8.2rem;
   margin-left: -0.2rem;

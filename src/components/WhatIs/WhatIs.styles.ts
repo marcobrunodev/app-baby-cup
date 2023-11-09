@@ -13,7 +13,7 @@ const Right = styled.div`
 const WhatIs = styled.section`
   ${container};
   box-sizing: border-box;
-  padding: 8rem 10rem;
+  padding: 8rem 10rem 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
