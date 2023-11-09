@@ -12,7 +12,7 @@ const Content = styled.span`
 
 const Bg = styled.img.attrs({ src: titleBg })``
 
-const Title = styled.h2`
+export const Title = styled.h2`
   position: relative;
   display: flex;
   align-items: center;

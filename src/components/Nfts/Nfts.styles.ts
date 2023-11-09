@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import container from '../../GlobalStyles/tools/container'
 import { Center } from '../Button/Button.styles'
+import { Title } from '../Title/Title.styles'
 
 const Nft = styled.img`
   max-width: 30rem;
@@ -20,6 +21,10 @@ const Nfts = styled.section`
   align-items: center;
   gap: 4rem;
   padding: 8rem 10rem;
+
+  & > ${Title} {
+    margin-bottom: 3rem;
+  }
 
   & ${Center} {
     width: 20rem;
