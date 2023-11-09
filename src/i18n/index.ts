@@ -21,7 +21,8 @@ i18next
           supplyValue: '10.000.000',
           whatIsTitle: 'What is BLC?',
           whatIsDescription: 'Lorem ipsum dolor sit amet consectetur. Arcu nullam est iaculis donec. Vulputate diam quam quisque dictum lacus quisque. Morbi sit quam mauris pretium purus praesent mauris. Adipiscing vel etiam volutpat tempus mus nulla purus. Duis et ligula vel congue condimentum. Tincidunt porttitor erat scelerisque ligula faucibus. Massa massa consequat cum velit sit laoreet integer amet. Felis turpis in enim odio eu magna. Nec blandit sed potenti dui quis aliquam tellus id nibh. Semper dolor eget potenti ut turpis. Quam bibendum mauris eu etiam eleifend tristique odio viverra felis. Nunc ut nulla pretium fringilla at lacus. Et lacinia mauris habitant mi. Non pretium sit nunc a dignissim scelerisque in quisque. Varius sed gravida bibendum posuere pellentesque donec malesuada.',
-          nftsTitle: 'NFT Card'
+          nftsTitle: 'NFT Card',
+          tokenAllocationTitle: 'Token Allocation'
         }
       }
     }
