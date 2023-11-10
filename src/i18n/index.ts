@@ -28,7 +28,8 @@ i18next
           footer: '© 2023 Baby luffy cup. All right reserved.',
           notFoundTitle: 'Not found',
           home: 'Go home',
-          walletConnect: 'Wallet Connect',
+          walletConnect: 'Connect Wallet',
+          walletConnectConneting: 'Connecting...',
           playerTitle: 'Your players'
         }
       }

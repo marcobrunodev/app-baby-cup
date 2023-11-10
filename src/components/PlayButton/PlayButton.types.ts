@@ -1,5 +1,8 @@
+import { MouseEventHandler } from "react"
+
 export type PlayButtonTypes = {
-  children: string
+  children: string,
+  onClick: MouseEventHandler
 }
 
 export default PlayButtonTypes

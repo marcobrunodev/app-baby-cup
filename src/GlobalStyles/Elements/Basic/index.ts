@@ -24,6 +24,7 @@ const Basic = createGlobalStyle`
   *::selection {
     color: white;
     background-color: var(--color-thrid);
+    text-shadow: none;
   }
 
   :root {

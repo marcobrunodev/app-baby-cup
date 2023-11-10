@@ -2,7 +2,7 @@ import GameHeaderTypes from './GameHeader.types'
 import S from './GameHeader.styles'
 import PlayButton from '../PlayButton'
 
-const GameHeader = ({ button, links }: GameHeaderTypes) => (
+const GameHeader = ({ button, links, onClick }: GameHeaderTypes) => (
   <S.GameHeader>
     <S.Content>
       <S.PlayLogo />
@@ -11,7 +11,7 @@ const GameHeader = ({ button, links }: GameHeaderTypes) => (
         {links.map(({ href, children }) => <S.Action href={`/game/${href}`}>{children}</S.Action>)}
       </S.Menu>
 
-      <PlayButton>{button}</PlayButton>
+      <PlayButton onClick={onClick}>{button}</PlayButton>
     </S.Content>
   </S.GameHeader>
 )
