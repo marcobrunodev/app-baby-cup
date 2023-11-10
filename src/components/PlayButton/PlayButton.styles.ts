@@ -12,7 +12,7 @@ const hasDisabled = ({ disabled }: Pick<PlayButtonTypes, 'disabled'>) => disable
   }
 `
 
-const PlayButton = styled.button<PlayButtonTypes>`
+export const PlayButton = styled.button<PlayButtonTypes>`
   display: flex;
   align-items: center;
   justify-content: center;

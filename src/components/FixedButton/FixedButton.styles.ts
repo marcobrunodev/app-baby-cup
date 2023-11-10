@@ -21,16 +21,16 @@ export const FixedButton = styled.button<FixedButtonTypes>`
   font-size: 1.8rem;
   line-height: 1.1em;
   cursor: url(${pointer}), pointer;
-  box-shadow: 0.2rem 0.2rem 0.2rem rgba(255,255,255,0.2);
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(255, 144, 0, 0.2);
   transition: transform 100ms ease-in-out,
               box-shadow 100ms ease-in-out;
 
   &:hover {
-    box-shadow: 0.4rem 0.4rem 0.2rem rgba(255,255,255,0.2);
+    box-shadow: 0.4rem 0.4rem 0.2rem rgba(255, 144, 0, 0.2);
     transform: scale(1.05) translateY(-0.5rem);
   }
   &:active {
-    box-shadow: 0.1rem 0.1rem 0.1rem rgba(255,255,255,0.2);
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 144, 0, 0.2);
     transform: scale(0.95) translateY(0.5rem);
   }
 `

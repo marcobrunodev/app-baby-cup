@@ -10,7 +10,7 @@ const Body = createGlobalStyle`
 
 const WrapperFixedButton = styled.div`
   ${container};
-  position: absolute;
+  position: fixed;
   bottom: 2rem;
   display: flex;
   justify-content: flex-end;

@@ -30,8 +30,12 @@ i18next
           home: 'Go home',
           walletConnect: 'Connect Wallet',
           walletConnectConneting: 'Connecting...',
-          playerTitle: 'Your players',
-          openBox: 'Buy NFT'
+          playerTitle: 'Your NFT players',
+          openBox: 'Buy NFT',
+          modalBuyNftTitle: 'Buy new Chest',
+          nftPrice: 'Price: 200 $BCUP',
+          modalBuyNftDescription: 'You have a XX% chance of getting a Legendary player and can only sell your player after XX days',
+          buyNow: 'Buy now'
         }
       }
     }

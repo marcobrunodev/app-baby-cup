@@ -4,7 +4,9 @@ export type PlayersTypes = {
   title: string,
   box: string,
   buyCoin: string,
-  onClickOpenBox: MouseEventHandler
+  onClickOpenBox: MouseEventHandler,
+  activeModalBuyNft: boolean,
+  handleCloseModalBuyNft: MouseEventHandler
 }
 
 export default PlayersTypes
