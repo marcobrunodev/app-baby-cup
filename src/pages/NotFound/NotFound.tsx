@@ -9,7 +9,7 @@ const NotFound = ({ title, home, play }: NotFoundTypes) => (
     <Title>{title}</Title>
 
     <Button as={Link} to='/'>{home}</Button>
-    <Button as={Link} to='/play'>{play}</Button>
+    <Button as={Link} to='/game/players'>{play}</Button>
 
     <S.Player />
   </S.NotFound>

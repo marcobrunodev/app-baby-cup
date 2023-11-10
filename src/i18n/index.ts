@@ -12,6 +12,7 @@ i18next
       en: {
         translation: {
           links: 'What is it,NFT,Token,Team',
+          linksPlay: 'Players,Staking,Marketplace',
           playGame: 'Play Game',
           buyCoin: 'Buy $BCUP',
           buyNft: 'Buy NFT',
@@ -26,7 +27,8 @@ i18next
           coreTeamTitle: 'Core Team',
           footer: '© 2023 Baby luffy cup. All right reserved.',
           notFoundTitle: 'Not found',
-          home: 'Go home'
+          home: 'Go home',
+          walletConnect: 'Wallet Connect'
         }
       }
     }

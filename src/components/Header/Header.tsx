@@ -18,7 +18,7 @@ const Header = ({ links, playGame }: HeaderTypes) => (
         ))}
       </S.Menu>
 
-      <Button as={Link} to='/play'>
+      <Button as={Link} to='/game/players'>
         {playGame}
       </Button>
     </S.Container>
