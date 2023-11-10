@@ -102,7 +102,7 @@ const ModalBuyNft = styled.div<Pick<ModalBuyNftTypes, 'active'>>`
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 200;
-  transform-origin: right bottom;
+  transform-origin: center bottom;
   transform: scale(0);
   transition: transform 200ms 200ms ease-in-out,
               opacity 400ms linear;
