@@ -30,7 +30,8 @@ i18next
           home: 'Go home',
           walletConnect: 'Connect Wallet',
           walletConnectConneting: 'Connecting...',
-          playerTitle: 'Your players'
+          playerTitle: 'Your players',
+          openBox: 'Buy NFT'
         }
       }
     }
