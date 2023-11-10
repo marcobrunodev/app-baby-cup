@@ -42,7 +42,7 @@ const Content = styled.div`
   padding: 1rem 2rem;
 `
 
-const PlayHeader = styled.header`
+const GameHeader = styled.header`
   background-color: var(--color-realy-black);
   
   box-sizing: border-box;
@@ -55,7 +55,7 @@ const PlayHeader = styled.header`
 `
 
 const S = {
-  PlayHeader,
+  GameHeader,
   Content,
   PlayLogo,
   Menu,

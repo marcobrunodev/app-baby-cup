@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
-import Play from './pages/Play'
+import Players from './pages/Players'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -9,7 +9,7 @@ const router = createBrowserRouter([{
 },
 {
   path: '/game/players',
-  element: <Play />
+  element: <Players />
 },
 {
   path: '*',

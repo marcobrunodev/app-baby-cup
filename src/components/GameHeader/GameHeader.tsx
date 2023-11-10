@@ -1,9 +1,9 @@
-import PlayHeaderTypes from './PlayHeader.types'
-import S from './PlayHeader.styles'
+import GameHeaderTypes from './GameHeader.types'
+import S from './GameHeader.styles'
 import PlayButton from '../PlayButton'
 
-const PlayHeader = ({ button, links }: PlayHeaderTypes) => (
-  <S.PlayHeader>
+const GameHeader = ({ button, links }: GameHeaderTypes) => (
+  <S.GameHeader>
     <S.Content>
       <S.PlayLogo />
 
@@ -13,7 +13,7 @@ const PlayHeader = ({ button, links }: PlayHeaderTypes) => (
 
       <PlayButton>{button}</PlayButton>
     </S.Content>
-  </S.PlayHeader>
+  </S.GameHeader>
 )
 
-export default PlayHeader
+export default GameHeader
